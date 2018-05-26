@@ -18,7 +18,7 @@ int main()
 
     std::cout << std::endl << std::endl << "------------------------------------------------------" << std::endl << std::endl;
 
-    worker.removeFewValues(13);
+    worker.removeFewValues(1 + rand()%15);
     worker.sync_data();
 
 
